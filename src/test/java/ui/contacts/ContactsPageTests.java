@@ -9,6 +9,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.sleep;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
 
@@ -19,6 +20,7 @@ public class ContactsPageTests extends AbstractBaseTest {
     @BeforeMethod
     public void setUp() {
         open(baseUrl);
+        sleep(2000);
         mainPageActions.goToContactsPage();
     }
 

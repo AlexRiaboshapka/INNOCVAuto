@@ -8,6 +8,7 @@ public class MainPageActions extends MainPageLocators {
 
     @Step("Go to contacts page")
     public void goToContactsPage() {
+        loadSvg.shouldNotBe(Condition.visible);
         acceptCookiesButton.click();
         contactsPage.click();
         loadSvg.shouldNotBe(Condition.visible);
