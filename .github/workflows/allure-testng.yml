@@ -43,13 +43,6 @@ jobs:
           echo "::set-output name=OUTPUT::$OUTPUT"
         continue-on-error: false
 
-      - name: Decrypt Google credentials-key.json
-        env:
-          CREDENTIALS_KEY: ${{ secrets.CREDENTIALS_KEY }}
-        run: |
-          gpg --quiet --batch --yes --decrypt --passphrase="$CREDENTIALS_KEY" \
-          --output src/main/resources/google/credentials-key.json src/main/resources/google/credentials-key.json.gpg
-
       - name: Cache local Maven repository
         uses: actions/cache@v3
         with:
