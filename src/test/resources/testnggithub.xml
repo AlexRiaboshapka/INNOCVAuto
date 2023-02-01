@@ -2,13 +2,14 @@
 <suite name="Suite">
     <listeners>
         <listener class-name="listener.CustomListener"/>
+        <listener class-name="listener.RetryListener"/>
     </listeners>
     <parameter name="projectId" value="1"/>
-    <test name="Check Cita">
+    <test name="Check Contacts Page">
         <parameter name="browser" value="${Browser}"/>
         <parameter name="browserVersion" value="${BrowserVersion}"/>
         <packages>
-            <package name="ui.cita2"/>
+            <package name="ui.contacts"/>
         </packages>
     </test>
 </suite>
