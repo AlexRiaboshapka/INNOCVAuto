@@ -35,7 +35,6 @@ public class ContactsPageActions extends ContactsPageLocators {
         mainImage.shouldBe(exist);
         contactsInfo.shouldBe(exist);
         $(byXpath(newsDate)).shouldBe(exist);
-        sleep(2000);
         List<SelenideElement> amountOfFaradayText = $$(byXpath(paragraphWithTextFaraday));
         CustomLogger.logger.info(amountOfFaradayText.size());
         CustomLogger.logger.info(amountOfFaradayText);

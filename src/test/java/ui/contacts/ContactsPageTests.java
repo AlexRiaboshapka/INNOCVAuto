@@ -22,6 +22,7 @@ public class ContactsPageTests extends AbstractBaseTest {
         open(baseUrl);
         sleep(2000);
         mainPageActions.goToContactsPage();
+        sleep(4000);
     }
 
     @Test
