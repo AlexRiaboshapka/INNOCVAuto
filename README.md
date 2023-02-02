@@ -6,9 +6,8 @@ Used Technologies:
 - Selenide
 - Allure report
 - Selenoid (Selenium Grid)
-- Google Sheets API for Data Driven Testing
-- Gitgub Actions for execution
-- Gitgub Pages to store the results
+- GitHub Actions for execution
+- GitHub Pages to store the results
 Project execution:
 # For local execution you need to:
 - Clone the project
@@ -23,4 +22,4 @@ Project execution:
 - Run Selenoid: ./cm selenoid start
 - Run Selenoid UI: ./cm selenoid-ui start
 - Run tests: mvn clean test
-- # Remote execution in Github Actions
+- # Remote execution in GitHub Actions
