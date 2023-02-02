@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Feb 02 11:39:33 GMT 2023","Thu Feb 02 11:39:35 GMT 2023","2616","Suite","Check Contacts Page","ui.contacts.ContactsPageTests","ui.contacts.ContactsPageTests","countHowManyTimesFaradayAppears","countHowManyTimesFaradayAppears",""
+"passed","Thu Feb 02 11:38:25 GMT 2023","Thu Feb 02 11:38:29 GMT 2023","4295","Suite","Check Contacts Page","ui.contacts.ContactsPageTests","ui.contacts.ContactsPageTests","checkContactPhoneIsTheSameOnTheLegalPage","checkContactPhoneIsTheSameOnTheLegalPage",""
+"failed","Thu Feb 02 11:39:07 GMT 2023","Thu Feb 02 11:39:28 GMT 2023","20934","Suite","Check Contacts Page","ui.contacts.ContactsPageTests","ui.contacts.ContactsPageTests","checkTheNewsAreUpToDate","checkTheNewsAreUpToDate",""
+"passed","Thu Feb 02 11:38:34 GMT 2023","Thu Feb 02 11:38:37 GMT 2023","3491","Suite","Check Contacts Page","ui.contacts.ContactsPageTests","ui.contacts.ContactsPageTests","checkThatSendFormFieldsAreRequired","checkThatSendFormFieldsAreRequired",""
